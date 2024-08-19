@@ -1,4 +1,4 @@
-# Mercator Vigil
+# Mercator Vigil - Cryptocurrency-Market-Monitoring-Tool
 
 *Watchful Trader*
 
