@@ -162,9 +162,10 @@ async def find_profitable_scenarios(exchange, symbols):
         else:
             signal = "Neutral"
 
-        profitable_scenarios.append(f"{symbol:<10} {opportunity_time} - Signal: {signal} (Score: {signal_score:.2f})")
+        profitable_scenarios.append((signal_score, f"{symbol:<10} {opportunity_time} - Signal: {signal} (Score: {signal_score:.2f})"))
+    profitable_scenarios.sort(key=lambda x: x[0], reverse=True)
 
-    return profitable_scenarios
+    return [scenario[1] for scenario in profitable_scenarios]
 
 
 async def main():
