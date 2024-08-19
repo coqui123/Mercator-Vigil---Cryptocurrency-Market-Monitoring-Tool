@@ -14,3 +14,5 @@ Mercator Vigil is a cryptocurrency market monitoring tool that scans for profita
 - Continuous monitoring with customizable scan intervals
 - Support for multiple cryptocurrency pairs
 
+![image](https://github.com/user-attachments/assets/ec5910a2-f228-4b3c-bed1-b628c94b02a3)
+
